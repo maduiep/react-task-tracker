@@ -1,4 +1,4 @@
-import { FaTimes } from 'react-con/fa';
+import { FaTimes } from 'react-icons/fa';
 
 const Task = ({ task }) => {
  return (
