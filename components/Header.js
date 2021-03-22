@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import Button from './Button'
 
-const Header = ({title}) => {
+const Header = ({title, menu}) => {
   const onClick  = (e) => {
   console.log(e)
  }
@@ -16,10 +16,12 @@ const Header = ({title}) => {
 
 Header.defaultProps = {
  title: 'Task Tracker',
+ menu: 'Machines'
 }
 
 Header.propTypes = {
  title: PropTypes.string.isRequired,
+ menu: PropTypes.string
 }
 
 export default Header
